@@ -1,0 +1,13 @@
+i=int(input("enter the no."))
+a=str(i)
+aa=[]
+o=[1,3,5,7,9]
+e=[0,2,4,6,8]
+for x in a:
+    aa.append(x)
+l= len(aa)-1
+s=int(aa[l])
+if s in o:
+    print("odd")
+elif s in e:
+    print("even")
